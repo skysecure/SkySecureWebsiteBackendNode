@@ -1,7 +1,7 @@
 const express = require('express')
 var cors = require('cors')
 var bodyParser = require('body-parser')
-const { PORT, JWT_SECRET } = require('./config')
+const { env:{PORT, JWT_SECRET} } = require('./config')
 
 //const user_routes = require('./routes/user_routes')
 const form_routes = require("./routes/form.routes")
