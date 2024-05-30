@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": null,
+    "password": "Skysecure@2024",
     "database": "skysecurewebsite",
     "host": "127.0.0.1",
     "dialect": "mysql"
