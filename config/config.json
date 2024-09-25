@@ -2,22 +2,29 @@
   "development": {
     "username": "root",
     "password": "Skysecure@2024",
-    "database": "skysecurewebsite",
+    "database": "skysecure_website",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": null,
-    "database": "skysecurewebsite",
+    "database": "skysecure_website",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "skysecurewebsite",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "admin_skysecure",
+    "password": "Skysecure@2024",
+    "database": "skysecure_website",
+    "host": "skysecure.mysql.database.azure.com",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
+
