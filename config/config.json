@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "admin_skysecure",
-    "password": "Skysecure@2024",
-    "database": "skysecure_website",
-    "host": "skysecure.mysql.database.azure.com",
+    "username": "dbowneruser"
+    "password": "Tomoto#7686",
+    "database": "skysecurewebsite",
+    "host": "skysecurewebsite.mysql.database.azure.com",
     "dialect": "mysql",
     "dialectOptions": {
       "ssl": {
