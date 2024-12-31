@@ -14,7 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "dbowneruser"
+    "username": "dbowneruser",
     "password": "Tomoto#7686",
     "database": "skysecurewebsite",
     "host": "skysecurewebsite.mysql.database.azure.com",
